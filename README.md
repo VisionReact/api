@@ -61,7 +61,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   - [:handshake: Contact](#handshake-contact)
   - [:gem: Acknowledgements](#gem-acknowledgements)
   <!--* [Installation](#gear-installation)-->
-  * [Running Tests](#test_tube-running-tests)
+  <!--* [Running Tests](#test_tube-running-tests)
   * [Run Locally](#running-run-locally)-->
   <!--* [Deployment](#triangular_flag_on_post-deployment)-->
 - [Contact](#handshake-contact)
