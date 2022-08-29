@@ -62,7 +62,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   - [:gem: Acknowledgements](#gem-acknowledgements)
   <!--* [Installation](#gear-installation)-->
   * [Running Tests](#test_tube-running-tests)
-  * [Run Locally](#running-run-locally)
+  * [Run Locally](#running-run-locally)-->
   <!--* [Deployment](#triangular_flag_on_post-deployment)-->
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
