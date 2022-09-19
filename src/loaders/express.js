@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const config = require('../config');
 const path = require('path');
+const morgan = require('morgan');
+const multer = require('multer')
 
 const expressUp = app => {
   /**
@@ -21,47 +23,22 @@ const expressUp = app => {
   // Enable Cross Origin Resource Sharing to all origins by default
   app.use(cors());
 
-  // Some sauce that always add since 2014
-  // "Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it."
-  // Maybe not needed anymore ?
-  //app.use(require('method-override')());
+  //set morgan
+  app.use(morgan('dev'))
 
   // Transforms the raw string of req.body into json
   app.use(express.json());
+
+  //
+  const Multer = multer({
+    storage: multer.memoryStorage(),
+    limits: 1024 * 1024
+  })
 
   // Load API routes
   //app.use(config.api.prefix, routes(app));
   require('../routes/index.js')(app);
 
-  /*app.use(OpticMiddleware({
-        enabled: process.env.NODE_ENV !== 'production',
-    }));*/
-
-  /// catch 404 and forward to error handler
-  app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err['status'] = 404;
-    next(err);
-  });
-
-  /// error handlers
-  app.use((err, req, res, next) => {
-    /**
-     * Handle 401 thrown by express-jwt library
-     */
-    if (err.name === 'UnauthorizedError') {
-      return res.status(err.status).send({ message: err.message }).end();
-    }
-    return next(err);
-  });
-  app.use((err, req, res, next) => {
-    res.status(err.status || 500);
-    res.json({
-      errors: {
-        message: err.message,
-      },
-    });
-  });
 };
 
 

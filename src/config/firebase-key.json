@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "moneyvision-13d0a",
+  "private_key_id": "b6aecd887e3ae694947ebf420eb6494d71535202",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTkiQdogtDLgdK\nZnrfR2VfPTPriInMOMsY8abUHIOQa3PYGelopqEo4hrXGRaVVFAxSXwyZuXIgOMF\nusuAZJlUBcXhNSv51gq/RTZ3Jm+vFAdKcWiSmq32tZtPXH+Vix59Tnr3CNVjwstB\nJpX6nawrF4x7uWSJJ4tMvDc+Trmn42VIdSySWw3bRqZ0UDDwLNNk5MkKkOl4vOg9\nAmXd35P1r9Ai8GlABALMW+PxJ1xlAkHryuVC6VvVrx3JlcbGKmefEuF6wkw3rAKv\n3490kujfIz6mXE+nvpCL4mUQYik+09d030Od/AwY6LjDWyuye0wgssj+4oVk9ZgL\nwGDsLQ8NAgMBAAECggEACmii8rtFaxNxY+FpU6FPVTFtY73Wq6+ynEJNRxu1BE6p\nBx11PIMQJDMFh4YSNJwOivI21EL4NJZUtPQ07VblrTrQeq0zQeocIr9ct91x+q7V\nUf4E20uVWfEi2DNwinKq+Ba7mXo7h1ouxkCH+em2bfNNY8vh7JZ/tbF/1Uapvx7r\ntY4gURiPDGQfIsdXfNr6L2dSUqMIDu41LiP9mc0+C0kGol1ShqjoZgum3R/+/Rb9\nh+bbGDzMCfPxs+KY/81GBhl5c+BFh8RCfz/8ePckAjbW0hUi9thAs7KP23H+4rdp\nUm0q6Ssasnptrn7zdioyEhnXMcOb5NXy7cASbOwtQQKBgQDuRa20eqP+6W+vBrl0\nbcTpCccAm3fX5tmBxI1VdjGffdVT+BvGFIrSQnE1HLfpWuhpUjHPzKyZVkUnNBPs\np6WanUTG2cTbpxaR35cAZlKYzGgKWMgCrASE1BOc1oB5V7WdQyTHyPdfxJna05/R\nU/dl5otnqAWkTZuzfekouW9cTQKBgQDjT+NUBzXJVhELU0UiKczY6uf4/UWsy+1b\nIO1LLR2pKBy1qQ651uZMT99gOS7eox9+X1QgbmfFjfcKql16GE3U0Wl2Z8QFtiLO\n63BhFn/ps1il/N/TG78py0dxgLJb+1dPyJsdTTTMmSLtWIHaJs4J5KYdvkFJJafC\n8+g8i7LdwQKBgQCiG63u2HGzAMcHYZ/TYstRcWF/PEbxERJyg3NU7bEdPdNh6a+b\nuGYqXyH+bKeDkGIHJfDV2/6h5FvwLDJSFE1LQCyGzaptduSYInLtxq/zXT57q6OI\njdgVNuSRFC8cX1wkvoXLlyMWeP/kLY7SMDpljdDSmTIdct+34rY7Cs6FEQKBgQCC\nL1jE4TQ+0RoF4HTxsfruKOseQP/MjSatUFhW+8nG/YAj0mTqrldLUVtfYqCjRc1d\ntP8ba9/m1v2rkBLlQFIjFqRN+fPcSYn59AFyuU4c7GhS+FbAM13yc8fBC7Ia2AIT\nYZLk3zjkDLhiMpR7+kl6hQdWdYYyfGxuTP6u3ltcgQKBgAtQW8QVhZ9QXdvklpJS\npD9QajkGmsMViJgUjN/lBJ2NEtgb667JN+TFsELrhFuAKQ5vFaeDCQyBKgTTgidD\nSs35249A/cHTnDi7r+LGF/6LHX6wzJfZZPJGaqSX0sNPIUWXiWohw2s1ETmAe7X4\nqviNQsT1Axv5i+lILV4m1lxW\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3xp2l@moneyvision-13d0a.iam.gserviceaccount.com",
+  "client_id": "102980576493078620411",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3xp2l%40moneyvision-13d0a.iam.gserviceaccount.com"
+}

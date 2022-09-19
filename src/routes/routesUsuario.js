@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const user = require("../api/users/controller/controller");
 
-router.get("/findAll", user.findAll);
+router.post("/create", user.createUser);
 
 module.exports = router
